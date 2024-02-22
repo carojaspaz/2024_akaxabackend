@@ -1,0 +1,30 @@
+import { BaseController } from '../../../core'
+import { CommonService } from '../services/common.service'
+
+export class GetPopulateCenterMunicipalityController extends BaseController{  
+    /**
+     *
+     */
+    constructor(private readonly commonService: CommonService) {
+        super();        
+    }          
+
+    async executeImpl(): Promise<any> {        
+        try{            
+            const municipalityCode = this.req.params.municipalityCode
+            const result = await this.commonService.GetPopulateCenterMunicipality(municipalityCode) as any;
+            if(result.isLeft()) {
+                const error = result.value;
+                switch(error.constructor){                    
+                    default:
+                        return this.clientError(error.errorValue());
+                }
+            } else {
+                return this.ok(result.value.getValue());
+            }
+        } catch (error) {
+            return this.fail(error);
+        }        
+    }
+    
+}

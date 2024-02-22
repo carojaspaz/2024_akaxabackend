@@ -1,0 +1,94 @@
+{
+    "core": {
+        "nullOrUndefined": "The field @0 is null or undefined",
+        "correctType": "isn't oneOf the correct types in",
+        "notInRange": "is not within range",
+        "notBetween": "is not within the range.",
+        "got": "Got",
+        "to": "to",
+        "parameterNull": "Parameter @0 does not exist"        
+    },
+    "schema":{
+        "notFound": "Records not found",
+        "requiredField": "Field @0 is required",
+        "uniqueFiled": "Field @0 must be unique",
+        "password": "Password does not secure"
+    },
+    "user": {
+        "wrongPassword": "Wrong password",
+        "inactiveAccount": "The account @0 is inactive.",
+        "googleTokenInvalid": "The google token used to attempt to create an account not genuine.",
+        "facebookTokenInvalid": "The facebook token used to attempt to create an account not genuine.",
+        "roleMissing": "The Role is missing.",
+        "accountDoesNotExists": "Does not exist account associated to the email @0.",
+        "accountAlreadyExists": "The email @0 associated for this account already exists.",
+        "invalidEmail": "@0 is not a valid email",
+        "invalidRole": "The allowed roles are: @1, @2, @3, @4, @5",                
+        "tokenExpired": "Token expired",
+        "notAllowedAccess": "Access not allowed",
+        "badRequest": "Verify the information provided"    
+    },
+    "profile":{
+        "phoneType": "The allowed types are: @0, @1",
+        "documentType": "The allowed types are: @0, @1, @2, @3, @4",
+        "studyType": "The allowed types are: @0, @1, @2, @3, @4, @5",
+        "profileDoesNotExist": "Profile does not exist"
+    },
+    "operator": {
+        "operatorDoesNotExist": "Operator does not exist"
+    },
+    "blueSpot": {
+        "notFound": "No Spot available"
+    },
+    "mail":{
+        "welcomeSubject": "Welcome Safety & Trust",
+        "resetPasswordSubject": "Password Reset - Safety & Trust",
+        "welcomeText": "Your account has been created successful your password is: @0 remember change it.",
+        "welcomeHtml": "Your account has been created successful your password is: <strong>@0</strong> remember change it.",
+        "passwordReset": "Your password has been reset: @0 remember change it.",
+        "passwordResetHtml": "Your password has been reset: <strong>@0</strong> remember change it.",
+        "sendMailSuccess": "Mail sended successful",
+        "sendMailError": "Error sending mail"
+    },
+    "client":{
+        "legalName": "Legal name",
+        "businessName": "Business name",
+        "clientDoesNotExist": "Client does not exists"
+    },
+    "sector":{
+        "inspectionCategoryAlreadyExists": "Inspection category already exists",
+        "All SubDivision": "All Sub Divisions",
+        "All Activities": "All Activities",
+        "All Sectors": "All sectors",
+        "All Divisions": "All divisions"
+    },
+    "protocol":{
+        "protocolAlreadyExists":"Protocol already Exists",
+        "safety":"Safety",
+        "safetyGood":"Safety Good",
+        "safetyRegular":"Safety Regular",
+        "safetyNo":"No Safety",
+        "noCritic":"No Critical",
+        "statusAudit": "Allowed status: @0, @1, @2, @3, @4",
+        "AC": "Critic",
+        "NC": "No Critic",
+        "TRANS": "Transporte",
+        "REC": "Recepción",
+        "MERC": "Mercadeo",
+        "PRO": "Producción",
+        "PP": "Punto de Pago",
+        "ALM": "Almacen",
+        "EXH": "Exhibición",
+        "DOM": "Domicilio",
+        "TODO": "Todo",
+        "COM": "Comun",
+        "Assigned": "Asignada",
+        "InProcess": "En progreso",
+        "Done": "Finalizada",
+        "CancelByClient": "Cancelada por el Cliente",
+        "Canceled": "Cancelada"
+    },
+    "inspectionCategory":{
+        "evaluationType": "The allowed types are: @0, @1"        
+    }
+}

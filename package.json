@@ -1,0 +1,53 @@
+{
+  "name": "akaxa_backend",
+  "version": "0.1.01",
+  "description": "Backend project Akaxa",
+  "main": "src/infra",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carojaspaz/akaxabackend.git"
+  },
+  "scripts": {
+    "local": "ts-node-dev --ignore-watch node_modules --respawn src/infra",
+    "dev": "ts-node-dev --ignore-watch node_modules --respawn src/infra/",
+    "build": "tsc -b",
+    "start": "node ./dist/infra",
+    "test": "mocha"
+  },
+  "keywords": [
+    "safety",
+    "clean"
+  ],
+  "author": "Carlos Rojas",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.0",
+    "@types/bcrypt": "^3.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.6",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongoose": "^5.7.20",
+    "@types/validator": "^13.0.0",
+    "aws-sdk": "^2.695.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.26.0",
+    "mongoose": "^6.0.10",
+    "multer": "^1.4.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.5",
+    "shallow-equal-object": "^1.1.1",
+    "simple-node-logger": "^18.12.24",
+    "uuidv4": "^6.0.8",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^3.9.10"
+  }
+}

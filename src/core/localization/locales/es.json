@@ -1,0 +1,94 @@
+{  
+    "core": {
+        "nullOrUndefined": "El parámetro @0 es nulo o indefinido",
+        "correctType": "no es uno de estos tipos",
+        "notInRange": "no esta entre",
+        "notBetween": "no está dentro del rango.",
+        "got": "Tiene",
+        "to": "y",
+        "parameterNull": "Parametro @0 no existe"
+    },
+    "schema":{
+        "notFound": "No hay registros",
+        "requiredField": "La propiedad @0 es requeria",
+        "uniqueFiled": "La propiedad @0 debe ser única",
+        "password": "Contraseña insegura"
+    },
+    "user": {
+        "wrongPassword": "Contraseña incorrecta",
+        "inactiveAccount": "La cuenta @0 está inactiva.",
+        "googleTokenInvalid": "El token de google usado para crear la cuenta no es un token válido.",
+        "facebookTokenInvalid": "El token de facebook usado para crear la cuenta no es un token válido.",
+        "roleMissing": "Falta el campo rol.",
+        "accountDoesNotExists": "No existe cuenta asociada al correo @0.",
+        "accountAlreadyExists": "Ya existe una cuenta asociada al correo @0.",
+        "invalidEmail": "@0 no es un correo electrónico válido",
+        "invalidRole": "Los roles permitidos son: @1, @2, @3, @4, @5",
+        "tokenExpired": "Su token ha vencido",
+        "notAllowedAccess": "Acceso no permitido",
+        "badRequest": "Verifique la información proporcionada"            
+    },
+    "profile":{
+        "phoneType": "Los tipos permitidos son: @0, @1",
+        "documentType": "Los tipos permitidos son: @0, @1, @2, @3, @4",
+        "studyType": "Los tipos permitidos son: @0, @1, @2, @3, @4, @5",
+        "profileDoesNotExist": "No se encontró el perfíl indicado"
+    },
+    "operator": {
+        "operatorDoesNotExist": "No se encontró el operador indicado"
+    },
+    "blueSpot": {
+        "notFound": "No hay Spot disponibles"
+    },
+    "mail":{
+        "welcomeSubject": "Bienvenido a Safety & Trust",
+        "resetPasswordSubject": "Contraseña reestablecida - Safety & Trust",
+        "welcomeText": "Su cuenta se ha creado satisfactoriamente, su contraseña es: @0 recuerde cambiarla.",
+        "welcomeHtml": "Su cuenta se ha creado satisfactoriamente, su contraseña es: <strong>@0</strong> recuerde cambiarla.",
+        "passwordReset": "Se ha reestablecido su contraseña: @0 recuerde cambiarla.",
+        "passwordResetHtml": "Se ha reestablecido su contraseña: <strong>@0</strong> recuerde cambiarla.",
+        "sendMailSuccess": "Correo enviado satisfactoriamente",
+        "sendMailError": "Error al enviar correo"
+    },
+    "client":{
+        "legalName": "Nombre legal",
+        "businessName": "Nombre comercial",
+        "clientDoesNotExist": "No se encontró el cliente indicado"
+    },
+    "sector":{
+        "inspectionCategoryAlreadyExists": "Categoria de inspección ya existe",
+        "All SubDivision": "Todas las sub divisiones",
+        "All Activities": "Todas las activities",
+        "All Sectors": "Todos los sectores",
+        "All Divisions": "Todos los sub sectores"
+    },
+    "protocol":{
+        "protocolAlreadyExists":"Protocolo ya existe",
+        "safety":"Safety",
+        "safetyGood":"Safety Bueno",
+        "safetyRegular":"Safety Regular",
+        "safetyNo":"No Safety",
+        "noCritic":"No Critico",
+        "statusAudit": "Los estados permitidos son: @0, @1, @2, @3, @4",
+        "AC": "Aspecto Crítico",
+        "NC": "Aspecto No Crítico",
+        "TRANS": "Transporte",
+        "REC": "Recepción",
+        "MERC": "Mercadeo",
+        "PRO": "Producción",
+        "PP": "Punto de Pago",
+        "ALM": "Almacen",
+        "EXH": "Exhibición",
+        "DOM": "Domicilio",
+        "TODO": "Todo",
+        "COM": "Comun",
+        "Assigned": "Asignada",
+        "InProcess": "En progreso",
+        "Done": "Finalizada",
+        "CancelByClient": "Cancelada por el Cliente",
+        "Canceled": "Cancelada"
+    },
+    "inspectionCategory":{
+        "evaluationType": "Los tipos permitidos son: @0, @1"        
+    }
+}

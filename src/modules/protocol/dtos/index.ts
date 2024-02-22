@@ -1,0 +1,7 @@
+export * from './protocol.dto'
+export * from './protocol.view.dto'
+export * from './ciuu.filter.dto'
+export * from './protocol.client.dto'
+export * from './protocol.view.schedule.dto'
+export * from './protocol.update.dto'
+export * from './protocol.audit.dto'

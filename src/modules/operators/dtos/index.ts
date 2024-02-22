@@ -1,0 +1,5 @@
+export { OperatorNaturalDto } from './operator.natural.dto'
+export { OperatorLegalDto } from './operator.legal.dto'
+export { ViewOperatorDto } from './view.operator.dto'
+export { ViewNaturalOperatorDto } from './view.natural.operator'
+export { ViewLegalOperatorDto } from './view.legal.operator'
