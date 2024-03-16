@@ -1,31 +1,23 @@
 export interface ClientDto {
     legalName: string
     businessName: string
-    totalEmployees: number
-    description: string
-    contacts:{
+    identification: {
+        number: string
+        type: string
+    }
+    contacts: {
         name: string
-        position: string        
-        email: string        
+        position: string
+        email: string
         phone: {
             type: string
             number: string
         }
     }[]
-    identification: {
-        number: string
-        type: string
-    }
     phones: {
         number: string
         type: string
     }[]
-    codeCIIU: {}
-    email: string
-    activities:{
-        type: string,
-        isSelected: boolean
-    }[]    
     address: {
         country: string
         firstPoliticalDivision: string
@@ -36,6 +28,13 @@ export interface ClientDto {
         latitude: number
         longitude: number
     }
-    typeCompany: string
-    idOperador?: string
+    totalEmployees: number
+    description: string
+    email: string
+    website: string
+    socialNetworks: {
+        user: string
+        network: string
+    }[]
+    codeCIIU: {}
 }
