@@ -96,6 +96,7 @@ clientSchema.methods.CreateClient = async function (raw: any): Promise<any> {
   const formattedDate = `${date.getFullYear().toString().slice(-2)}${(date.getMonth() + 1).toString().padStart(2, '0')}${date.getDate().toString().padStart(2, '0')}`;
   const paddedCount = (count + 1).toString().padStart(6, '0');
   client.set("internalCode", `ST-${formattedDate}${paddedCount}`);
+  client.set("lastUpdate", Date.now());
   await client.save();
   return client._id;
 };
