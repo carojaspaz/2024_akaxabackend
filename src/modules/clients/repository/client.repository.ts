@@ -225,14 +225,14 @@ export class ClientRepository implements IClientRepo {
     public async getAll(): Promise<Response> {
         try {
             const clients = await this.models.Client.find()
-                .populate('idOperator', 'firstName lastName')
-                .populate({
-                    path: 'typeCompany',
-                    populate: {
-                        path: 'riskLevel',
-                        select: 'risk level'
-                    }
-                })
+                //.populate('idOperator', 'firstName lastName')
+                //.populate({
+                //    path: 'typeCompany',
+                //    populate: {
+                //        path: 'riskLevel',
+                //        select: 'risk level'
+                //    }
+                //})
                 .exec()
             let viewClients: any[] = []
             clients.forEach((element: any) => {
@@ -292,15 +292,15 @@ export class ClientRepository implements IClientRepo {
     public async getById(id: string): Promise<Response> {
         try {
             const client = await this.models.Client.findById(id)
-                .populate('idOperator', 'firstName lastName')
-                .populate({
-                    path: 'typeCompany',
-                    select: 'type riskLevel',
-                    populate: {
-                        path: 'riskLevel',
-                        select: 'risk level'
-                    }
-                })
+                //.populate('idOperator', 'firstName lastName')
+                //.populate({
+                //    path: 'typeCompany',
+                //    select: 'type riskLevel',
+                //    populate: {
+                //        path: 'riskLevel',
+                //        select: 'risk level'
+                //    }
+                //})
                 .exec()
             if (client) {
                 const viewClient = this.map.toClientDtoAdmin(client)
