@@ -181,3 +181,94 @@ InvalidAccessKeyId: The AWS Access Key Id you provided does not exist in our rec
     at Request.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\request.js:38:9)
     at Request.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\request.js:685:12)
     at Request.callListeners (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) 
+17:42:08.619 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at LoginUserController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:33:29)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+17:59:03.789 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at LoginUserController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:33:29)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+22:51:58.623 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at LoginUserController.jsonResponse (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:31:34)
+    at LoginUserController.notFound (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:67:17)
+    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:22:37)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58) 
+22:51:59.957 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at LoginUserController.jsonResponse (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:31:34)
+    at LoginUserController.notFound (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:67:17)
+    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:22:37)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58) 
+22:51:59.967 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at LoginUserController.jsonResponse (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:31:34)
+    at LoginUserController.notFound (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:67:17)
+    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:22:37)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58) 
+22:52:00.685 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at LoginUserController.jsonResponse (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:31:34)
+    at LoginUserController.notFound (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:67:17)
+    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:22:37)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58) 
+22:52:00.687 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at LoginUserController.jsonResponse (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:31:34)
+    at LoginUserController.notFound (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:67:17)
+    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:22:37)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58) 
