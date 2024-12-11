@@ -7,7 +7,7 @@ import {
   documentType,
   addressType,
   CIIUType,
-  selectedType,
+  socialNetworkType,
   contactType,
 } from "../customTypes";
 
@@ -20,6 +20,10 @@ const clientSchema = new Mongoose.Schema(
     businessName: {
       type: String,
       required: [true, translate("requiredField", "schema", ["businessName"])],
+    },
+    internalCode: {
+      type: String,
+      required: false,
     },
     identification: documentType,
     contacts: [contactType],
@@ -50,7 +54,21 @@ const clientSchema = new Mongoose.Schema(
           translate("invalidEmail", "user", [props.value]),
       },
     },
-    activities: [selectedType],
+    website: {
+      type: String,
+      required: false,
+    },
+    socialNetworks: [socialNetworkType],
+    codeCIIU: CIIUType,
+    user: {
+      type: Mongoose.Schema.Types.ObjectId,
+      ref: "ProfileClient",
+      required: false,
+    },
+    isActive: {
+      type: Boolean,
+      default: true,
+    },
     creationDate: {
       type: Date,
       default: Date.now(),
@@ -58,26 +76,6 @@ const clientSchema = new Mongoose.Schema(
     lastUpdate: {
       type: Date,
       default: null,
-    },
-    isActive: {
-      type: Boolean,
-      default: true,
-    },
-    contact: {
-      type: Mongoose.Schema.Types.ObjectId,
-      ref: "ProfileClient",
-      required: false,
-    },
-    typeCompany: {
-      type: Mongoose.Schema.Types.ObjectId,
-      ref: "TypeCompany",
-      required: false,
-    },
-    codeCIIU: CIIUType,
-    idOperator: {
-      type: Mongoose.Schema.Types.ObjectId,
-      ref: "Operators",
-      required: false,
     },
   },
   { versionKey: false }
@@ -93,6 +91,12 @@ clientSchema.post("save", async function (err: any, doc: any, next: any) {
 
 clientSchema.methods.CreateClient = async function (raw: any): Promise<any> {
   const client = new Client(raw);
+  const date = new Date();
+  const count = await Client.countDocuments();
+  const formattedDate = `${date.getFullYear().toString().slice(-2)}${(date.getMonth() + 1).toString().padStart(2, '0')}${date.getDate().toString().padStart(2, '0')}`;
+  const paddedCount = (count + 1).toString().padStart(6, '0');
+  client.set("internalCode", `ST-${formattedDate}${paddedCount}`);
+  client.set("lastUpdate", Date.now());
   await client.save();
   return client._id;
 };

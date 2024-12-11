@@ -29,10 +29,11 @@
         "badRequest": "Verifique la información proporcionada"            
     },
     "profile":{
-        "phoneType": "Los tipos permitidos son: @0, @1",
+        "phoneType": "Los tipos permitidos son: @0, @1, @2",
         "documentType": "Los tipos permitidos son: @0, @1, @2, @3, @4",
         "studyType": "Los tipos permitidos son: @0, @1, @2, @3, @4, @5",
-        "profileDoesNotExist": "No se encontró el perfíl indicado"
+        "profileDoesNotExist": "No se encontró el perfíl indicado",
+        "socialNetworkTypes": "Los tipos permitidos son: @0, @1, @2, @3"
     },
     "operator": {
         "operatorDoesNotExist": "No se encontró el operador indicado"
