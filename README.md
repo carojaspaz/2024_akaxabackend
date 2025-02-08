@@ -4,6 +4,8 @@ Este es el proceso de configuración del ambiente necesario para que funcione el
 |--------------|---------|
 | Node         | 18.19.1 |
 
+El primer paso es instalar Node, siga las instrucciones al pie de la letra.
+
 Instalar node 18.19.1
 nvm install 18.19.1
 
