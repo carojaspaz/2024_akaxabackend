@@ -21,3 +21,5 @@ npm install
 
 Ejecutar el backend
 npm run dev
+
+Nota: Revisar las variables de entorno para poder conectarse a la base de datos.
