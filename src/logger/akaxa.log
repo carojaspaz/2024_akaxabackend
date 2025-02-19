@@ -1,274 +1,195 @@
-17:56:33.121 ERROR result.isLeft is not a function
-{}
-TypeError: result.isLeft is not a function
-    at CreateProfilePartnerController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\create.profile.partner.controller.ts:18:23)
-    at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\create.profile.partner.controller.ts:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
-17:56:50.225 ERROR result.isLeft is not a function
-{}
-TypeError: result.isLeft is not a function
-    at CreateProfilePartnerController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\create.profile.partner.controller.ts:18:23)
-    at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\create.profile.partner.controller.ts:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
-15:59:08.818 ERROR Cannot read property 'path' of undefined
-{}
-TypeError: Cannot read property 'path' of undefined
-    at UpdatePictureProfileController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\operators\controllers\update.picture.operator.controller.ts:17:60)
-    at Generator.next (<anonymous>)
-    at D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\operators\controllers\update.picture.operator.controller.ts:8:71
-    at new Promise (<anonymous>)
-    at __awaiter (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\operators\controllers\update.picture.operator.controller.ts:4:12)
-    at UpdatePictureProfileController.executeImpl (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\operators\controllers\update.picture.operator.controller.ts:25:16)
-    at UpdatePictureProfileController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:23:18)
-    at Generator.next (<anonymous>)
-    at D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:8:71
-    at new Promise (<anonymous>) 
-22:45:19.905 ERROR Cannot set headers after they are sent to the client
+19:56:46.670 ERROR Cannot set headers after they are sent to the client
 {"code":"ERR_HTTP_HEADERS_SENT"}
-Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (internal/errors.js:322:7)
-    at ServerResponse.setHeader (_http_outgoing.js:561:11)
-    at ServerResponse.header (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:771:10)
-    at ServerResponse.send (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:170:12)
-    at ServerResponse.json (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:267:15)
-    at GetByEmailProfileController.jsonResponse (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:31:34)
-    at GetByEmailProfileController.notFound (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:67:17)
-    at GetByEmailProfileController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:21:37)
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
     at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:5:58) 
-22:49:03.891 ERROR Cannot set headers after they are sent to the client
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+20:45:51.602 ERROR Cannot set headers after they are sent to the client
 {"code":"ERR_HTTP_HEADERS_SENT"}
-Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (internal/errors.js:322:7)
-    at ServerResponse.setHeader (_http_outgoing.js:561:11)
-    at ServerResponse.header (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:771:10)
-    at ServerResponse.send (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:170:12)
-    at ServerResponse.json (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:267:15)
-    at GetByEmailProfileController.jsonResponse (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:31:34)
-    at GetByEmailProfileController.notFound (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:67:17)
-    at GetByEmailProfileController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:21:37)
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
     at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:5:58) 
-23:25:29.757 ERROR Cannot set headers after they are sent to the client
-{"code":"ERR_HTTP_HEADERS_SENT"}
-Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (internal/errors.js:322:7)
-    at ServerResponse.setHeader (_http_outgoing.js:561:11)
-    at ServerResponse.header (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:771:10)
-    at ServerResponse.send (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:170:12)
-    at ServerResponse.json (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:267:15)
-    at GetByEmailProfileController.ok (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:36:35)
-    at GetByEmailProfileController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:26:29)
-    at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:5:58)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
     at runMicrotasks (<anonymous>) 
-23:30:27.173 ERROR Cannot set headers after they are sent to the client
-{"code":"ERR_HTTP_HEADERS_SENT"}
-Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (internal/errors.js:322:7)
-    at ServerResponse.setHeader (_http_outgoing.js:561:11)
-    at ServerResponse.header (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:771:10)
-    at ServerResponse.send (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:170:12)
-    at ServerResponse.json (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:267:15)
-    at GetByEmailProfileController.ok (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:36:35)
-    at GetByEmailProfileController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:26:29)
-    at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
-23:33:58.385 ERROR Cannot set headers after they are sent to the client
-{"code":"ERR_HTTP_HEADERS_SENT"}
-Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (internal/errors.js:322:7)
-    at ServerResponse.setHeader (_http_outgoing.js:561:11)
-    at ServerResponse.header (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:771:10)
-    at ServerResponse.send (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:170:12)
-    at ServerResponse.json (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:267:15)
-    at GetByEmailProfileController.ok (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:36:35)
-    at GetByEmailProfileController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:26:29)
-    at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
-23:35:47.706 ERROR Cannot set headers after they are sent to the client
-{"code":"ERR_HTTP_HEADERS_SENT"}
-Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (internal/errors.js:322:7)
-    at ServerResponse.setHeader (_http_outgoing.js:561:11)
-    at ServerResponse.header (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:771:10)
-    at ServerResponse.send (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:170:12)
-    at ServerResponse.json (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:267:15)
-    at GetByEmailProfileController.ok (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:36:35)
-    at GetByEmailProfileController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:26:29)
-    at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
-23:44:14.144 ERROR Cannot set headers after they are sent to the client
-{"code":"ERR_HTTP_HEADERS_SENT"}
-Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (internal/errors.js:322:7)
-    at ServerResponse.setHeader (_http_outgoing.js:561:11)
-    at ServerResponse.header (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:771:10)
-    at ServerResponse.send (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:170:12)
-    at ServerResponse.json (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:267:15)
-    at GetByEmailProfileController.ok (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:36:35)
-    at GetByEmailProfileController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:26:29)
-    at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
-02:25:35.181 ERROR Cannot set headers after they are sent to the client
-{"code":"ERR_HTTP_HEADERS_SENT"}
-Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (internal/errors.js:322:7)
-    at ServerResponse.setHeader (_http_outgoing.js:561:11)
-    at ServerResponse.header (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:771:10)
-    at ServerResponse.send (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:170:12)
-    at ServerResponse.json (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:267:15)
-    at GetByEmailProfileController.ok (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:36:35)
-    at GetByEmailProfileController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:26:29)
-    at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
-09:43:15.489 ERROR Cannot set headers after they are sent to the client
-{"code":"ERR_HTTP_HEADERS_SENT"}
-Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (internal/errors.js:322:7)
-    at ServerResponse.setHeader (_http_outgoing.js:561:11)
-    at ServerResponse.header (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:771:10)
-    at ServerResponse.send (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:170:12)
-    at ServerResponse.json (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:267:15)
-    at GetByEmailProfileController.ok (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:36:35)
-    at GetByEmailProfileController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:26:29)
-    at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\profiles\controllers\get.by.email.profile.controller.ts:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
-16:37:26.322 ERROR Cannot set headers after they are sent to the client
-{"code":"ERR_HTTP_HEADERS_SENT"}
-Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at new NodeError (internal/errors.js:322:7)
-    at ServerResponse.setHeader (_http_outgoing.js:561:11)
-    at ServerResponse.header (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:771:10)
-    at ServerResponse.send (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:170:12)
-    at ServerResponse.json (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\express\lib\response.js:267:15)
-    at LoginUserController.jsonResponse (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:31:34)
-    at LoginUserController.clientError (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\core\infra\base.controller.ts:51:17)
-    at LoginUserController.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\users\controllers\login.user.controller.ts:30:37)
-    at Generator.next (<anonymous>)
-    at fulfilled (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\src\modules\users\controllers\login.user.controller.ts:5:58) 
-09:04:27.991 ERROR The AWS Access Key Id you provided does not exist in our records.
-{"message":"The AWS Access Key Id you provided does not exist in our records.","code":"InvalidAccessKeyId","region":null,"time":"2023-08-30T14:04:27.989Z","requestId":"QMHD06HRET2RX9YM","extendedRequestId":"LXciHCMBsuAlQOtZ/UPth5iaOk9gGamazm4cVt/zX5xqmafnE+fAKPOVGdlCOxTqUDGFRt9ZUBA=","statusCode":403,"retryable":false,"retryDelay":17.703333986699832}
-InvalidAccessKeyId: The AWS Access Key Id you provided does not exist in our records.
-    at Request.extractError (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\services\s3.js:831:35)
-    at Request.callListeners (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
-    at Request.emit (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
-    at Request.emit (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\request.js:683:14)
-    at Request.transition (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\request.js:22:10)
-    at AcceptorStateMachine.runTo (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\state_machine.js:14:12)
-    at D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\state_machine.js:26:10
-    at Request.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\request.js:38:9)
-    at Request.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\request.js:685:12)
-    at Request.callListeners (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) 
-09:04:28.000 ERROR The AWS Access Key Id you provided does not exist in our records.
-{"message":"The AWS Access Key Id you provided does not exist in our records.","code":"InvalidAccessKeyId","region":null,"time":"2023-08-30T14:04:27.989Z","requestId":"QMHD06HRET2RX9YM","extendedRequestId":"LXciHCMBsuAlQOtZ/UPth5iaOk9gGamazm4cVt/zX5xqmafnE+fAKPOVGdlCOxTqUDGFRt9ZUBA=","statusCode":403,"retryable":false,"retryDelay":17.703333986699832}
-InvalidAccessKeyId: The AWS Access Key Id you provided does not exist in our records.
-    at Request.extractError (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\services\s3.js:831:35)
-    at Request.callListeners (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
-    at Request.emit (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
-    at Request.emit (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\request.js:683:14)
-    at Request.transition (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\request.js:22:10)
-    at AcceptorStateMachine.runTo (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\state_machine.js:14:12)
-    at D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\state_machine.js:26:10
-    at Request.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\request.js:38:9)
-    at Request.<anonymous> (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\request.js:685:12)
-    at Request.callListeners (D:\T-Eco\Aplicaciones\Akaxa\App\akaxabackend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) 
-17:42:08.619 ERROR Cannot set headers after they are sent to the client
+20:52:27.908 ERROR Cannot set headers after they are sent to the client
 {"code":"ERR_HTTP_HEADERS_SENT"}
 Error: Cannot set headers after they are sent to the client
-    at new NodeError (node:internal/errors:405:5)
-    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
     at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
     at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
     at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
-    at LoginUserController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
-    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:33:29)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
     at Generator.next (<anonymous>)
-    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
-17:59:03.789 ERROR Cannot set headers after they are sent to the client
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+21:12:29.059 ERROR Cannot set headers after they are sent to the client
 {"code":"ERR_HTTP_HEADERS_SENT"}
 Error: Cannot set headers after they are sent to the client
-    at new NodeError (node:internal/errors:405:5)
-    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
     at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
     at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
     at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
-    at LoginUserController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
-    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:33:29)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
     at Generator.next (<anonymous>)
-    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58)
-    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
-22:51:58.623 ERROR Cannot set headers after they are sent to the client
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+21:21:11.578 ERROR Cannot set headers after they are sent to the client
 {"code":"ERR_HTTP_HEADERS_SENT"}
 Error: Cannot set headers after they are sent to the client
-    at new NodeError (node:internal/errors:405:5)
-    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
     at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
     at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
     at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
-    at LoginUserController.jsonResponse (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:31:34)
-    at LoginUserController.notFound (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:67:17)
-    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:22:37)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
     at Generator.next (<anonymous>)
-    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58) 
-22:51:59.957 ERROR Cannot set headers after they are sent to the client
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+00:53:10.553 ERROR Cannot set headers after they are sent to the client
 {"code":"ERR_HTTP_HEADERS_SENT"}
 Error: Cannot set headers after they are sent to the client
-    at new NodeError (node:internal/errors:405:5)
-    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
     at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
     at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
     at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
-    at LoginUserController.jsonResponse (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:31:34)
-    at LoginUserController.notFound (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:67:17)
-    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:22:37)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
     at Generator.next (<anonymous>)
-    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58) 
-22:51:59.967 ERROR Cannot set headers after they are sent to the client
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+01:06:35.816 ERROR Cannot set headers after they are sent to the client
 {"code":"ERR_HTTP_HEADERS_SENT"}
 Error: Cannot set headers after they are sent to the client
-    at new NodeError (node:internal/errors:405:5)
-    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
     at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
     at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
     at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
-    at LoginUserController.jsonResponse (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:31:34)
-    at LoginUserController.notFound (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:67:17)
-    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:22:37)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
     at Generator.next (<anonymous>)
-    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58) 
-22:52:00.685 ERROR Cannot set headers after they are sent to the client
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+01:24:46.060 ERROR Cannot set headers after they are sent to the client
 {"code":"ERR_HTTP_HEADERS_SENT"}
 Error: Cannot set headers after they are sent to the client
-    at new NodeError (node:internal/errors:405:5)
-    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
     at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
     at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
     at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
-    at LoginUserController.jsonResponse (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:31:34)
-    at LoginUserController.notFound (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:67:17)
-    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:22:37)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
     at Generator.next (<anonymous>)
-    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58) 
-22:52:00.687 ERROR Cannot set headers after they are sent to the client
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+01:49:24.189 ERROR Cannot set headers after they are sent to the client
 {"code":"ERR_HTTP_HEADERS_SENT"}
 Error: Cannot set headers after they are sent to the client
-    at new NodeError (node:internal/errors:405:5)
-    at ServerResponse.setHeader (node:_http_outgoing:648:11)
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
     at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
     at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
     at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
-    at LoginUserController.jsonResponse (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:31:34)
-    at LoginUserController.notFound (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:67:17)
-    at LoginUserController.<anonymous> (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:22:37)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
     at Generator.next (<anonymous>)
-    at fulfilled (/com.docker.devenvironments.code/src/modules/users/controllers/login.user.controller.ts:5:58) 
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+01:58:31.517 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+02:17:57.612 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+02:43:33.652 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+02:44:43.471 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+02:51:56.985 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
+02:53:39.237 ERROR Cannot set headers after they are sent to the client
+{"code":"ERR_HTTP_HEADERS_SENT"}
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.setHeader (node:_http_outgoing:603:11)
+    at ServerResponse.header (/com.docker.devenvironments.code/node_modules/express/lib/response.js:771:10)
+    at ServerResponse.send (/com.docker.devenvironments.code/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/com.docker.devenvironments.code/node_modules/express/lib/response.js:267:15)
+    at GetAllInspectionCategoryController.ok (/com.docker.devenvironments.code/src/core/infra/base.controller.ts:36:35)
+    at GetAllInspectionCategoryController.<anonymous> (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:28:29)
+    at Generator.next (<anonymous>)
+    at fulfilled (/com.docker.devenvironments.code/src/modules/inspectionCategory/controllers/get.all.inspection.category.controller.ts:5:58)
+    at runMicrotasks (<anonymous>) 
